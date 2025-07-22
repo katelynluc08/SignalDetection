@@ -1,1 +1,5 @@
-# SignalDetection
+This project encompasses a basic Signal Detection Theory (SDT) implementation to support a multi-condition experimental analysis using Python. It first introduces an Experiment class designed to store multiple SDT objects—each representing a distinct experimental condition—and evaluates overall observer performance. 
+
+The class generates Receiver Operating Characteristic (ROC) curve points by extracting and sorting hit rates and false alarm rates across conditions, and computes the Area Under the Curve (AUC) utilizing the trapezoidal rule as a measure of discriminability. Optional ROC plotting allows for intuitive visualization of model performance. 
+
+The project includes over eight unit tests covering edge cases, correct AUC calculation, ROC point sorting, and error handling for empty experiments. This work exemplifies skills in object-oriented programming, statistical modeling, data visualization, and test-driven development in Python within the scope of cognitive and behavioral data analysis.
